@@ -80,6 +80,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::game.game"
+    },
+    "rating": {
+      "type": "decimal",
+      "default": 0
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "tg": {
+      "type": "string"
     }
   }
 }
